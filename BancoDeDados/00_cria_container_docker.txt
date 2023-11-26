@@ -1,0 +1,1 @@
+docker run --name query_quasar -d -p 5432:5432 -e POSTGRES_PASSWORD=Query_quasar:_03 postgres:15.4-alpine
